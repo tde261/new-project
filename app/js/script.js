@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(window).ready(function () {
 
     var slideCount = $(".slide").size();
     var slideNum = 0;
@@ -32,10 +32,10 @@ $(document).ready(function () {
         change();
     }
 
-    $(".slide, .slide_navigation, .slide_navigation_indicator").mouseover(function () {
+    $(".slide, .slide_navigation, .slide_navigation_indicator").mouseenter(function () {
         clearInterval(interval);
     });
-    $(".slide, .slide_navigation, .slide_navigation_indicator").mouseout(function () {
+    $(".slide, .slide_navigation, .slide_navigation_indicator").mouseleave(function () {
         interval = setInterval(autoChange, 3500);
     });
 
@@ -151,7 +151,7 @@ $('.page-scroll').click(function(){
     $("html, body").animate({scrollTop:0 + "px"});
 }); 
 
-
+$(document).ready(function(){
             $('#btn_submit').click(function(){
 
                 if($('#user_name').val() == '') {

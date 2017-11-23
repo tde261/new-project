@@ -1078,7 +1078,9 @@ footer
 }
 .slide3
 {
-    align-items: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 84px 0 0 22px;
 }
 .slide-background .slide_wrapper {
     display: none;
@@ -1198,7 +1200,7 @@ footer
 }
 .slide3_wrap
 {
-    
+    margin: 0;
 }
 .slide3_title {
     font-family: lato, sans-serif;
@@ -1209,9 +1211,7 @@ footer
     width: 900px;
     line-height: 89px;
     text-align: left;
-    display: inline;
     text-shadow: 0 0 10px black;
-    padding: 0 40px;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
 }
