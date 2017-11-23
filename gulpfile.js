@@ -89,10 +89,10 @@ callback
 gulp.task('ftp', function () {
     return gulp.src('dist/**/*')
         .pipe(ftp({
-            host: 'x92787dd.beget.tech',
-            user: 'x92787dd_ftp',
-            pass: 'Denis123',
-            remotePath: '/x92787dd.beget.tech/public_html/'
+            host: 'ftp.stamp-magn.nichost.ru',
+            user: 'stamp-magn_ftp',
+            pass: 'PU:crd6i',
+            remotePath: '/stamp-magnat.ru/docs'
         }))
         // you need to have some kind of stream after gulp-ftp to make sure it's flushed 
         // this can be a gulp plugin, gulp.dest, or any kind of stream 

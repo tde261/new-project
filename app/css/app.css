@@ -58,7 +58,7 @@ header:before
 {
     content: "";
     display: block;
-    background: url(../images/2.png) no-repeat 50% 100%;
+    background: url(../images/3.png) no-repeat 50% 100%;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -441,7 +441,7 @@ header .column
 .wrap
 {
     padding: 0; 
-    margin: 35px auto 0;
+    margin: 75px auto 0;
 }
 
 .content
@@ -603,7 +603,8 @@ header .column
     margin: 10px auto;
     font-style: italic;
     display: block;
-    max-width: 97px;
+    max-width: 128px;
+    padding: 5px 0;
     font-size: 20px;
     background-color: yellow;
     border-radius: 5px;
@@ -1075,6 +1076,10 @@ footer
     transition: all 1s cubic-bezier(0.57, -0.01, 0.4, 0.96);
     will-change: transform;
 }
+.slide3
+{
+    align-items: left;
+}
 .slide-background .slide_wrapper {
     display: none;
 }
@@ -1092,7 +1097,7 @@ footer
     left: -50%;
 }
 .slide3 {
-    background: url('../images/2222.jpg') no-repeat 50%;
+    background: url('../images/3333.jpg') no-repeat 50%;
     background-size: cover;
     left: -100%;
 }
@@ -1154,6 +1159,18 @@ footer
     color: white;
     text-shadow: 0 0 10px black;
 }
+.slide2_title {
+    font-size: 58px;
+    text-transform: uppercase;
+    text-shadow: 0 0 15px black,
+     0 0 15px black, 
+     0 0 15px black,
+      0 0 10px black,
+       0 0 5px black,
+        0 0 5px black,
+         0 0 5px black,
+          0 0 5px black;
+}
 .slide2_button {
     margin: 56px auto 0;
 }
@@ -1175,14 +1192,23 @@ footer
     justify-content: center;
     align-items: center;
 }
+.slide3
+{
+   
+}
+.slide3_wrap
+{
+    
+}
 .slide3_title {
     font-family: lato, sans-serif;
     font-weight: 900;
     letter-spacing: 0.04em;
     color: #ffffff;
     font-size: 73px;
+    width: 900px;
     line-height: 89px;
-    text-align: center;
+    text-align: left;
     display: inline;
     text-shadow: 0 0 10px black;
     padding: 0 40px;
@@ -1203,7 +1229,6 @@ footer
     margin: 50px auto 0;
 }
 .slide_wrapper {
-    margin: 0 auto;
 }
 .slide_navigation_left {
     background: url('../images/453.png') no-repeat -27px 0;
