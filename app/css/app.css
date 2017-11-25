@@ -46,15 +46,14 @@ img
 header
 {
     width: 100%;
-    background-color: #262626;
-    background: linear-gradient(to top, #262626, #262626, #414141);
+    /*background-color: #262626;
+    background: linear-gradient(to top, #262626, #262626, #414141);*/
     padding: 0;
-    position: relative;
+    position: absolute;
     z-index: 100;
-    box-shadow: 0 5px 11px;
 }
 
-header:before
+/*header:before
 {
     content: "";
     display: block;
@@ -64,7 +63,7 @@ header:before
     height: 100%;
     bottom: -55px;
     z-index: -10;
-}
+}*/
 
 header h1
 {
@@ -442,6 +441,8 @@ header .column
 {
     padding: 0; 
     margin: 75px auto 0;
+    background: white;
+    position: relative;
 }
 
 .content
@@ -449,6 +450,7 @@ header .column
     padding: 40px;
     background: white;
     margin-top: -74px;
+    overflow: hidden;
 }
 
 .content-block
@@ -1027,7 +1029,7 @@ footer
 }
 
 .slideshow {
-    height: 90vh;
+    height: 100vh;
     margin: 0 auto;
     width: 100vw;
     position: relative;
@@ -1044,14 +1046,14 @@ footer
     opacity: 1;
 }
 .slideshow:hover .slide_navigation_indicator {
-    transform: translate3d(0, -22px, 0);
+    transform: translate3d(0, -39px, 0);
     opacity: 1;
 }
 .slide {
     position: absolute;
     will-change: transform;
     overflow: hidden;
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
     transition: all 1s cubic-bezier(0.57, -0.01, 0.4, 0.96);
 }
@@ -1066,7 +1068,7 @@ footer
 }
 .slide1,.slide2,.slide3,.slide4,.slide5 {
     position: absolute;
-    height: 90vh;
+    height: 100vh;
     box-sizing: border-box;
     width: 100vw;
     display: flex;
@@ -1089,17 +1091,17 @@ footer
     display: block;
 }
 .slide1 {
-    background: url('../images/1111.jpg') no-repeat 50%;
+    background: url('../images/111111.jpg') no-repeat 50%;
     background-size: cover;
     left: 0;
 }
 .slide2 {
-    background: url('../images/2222.jpg') no-repeat 50%;
+    background: url('../images/222222.jpg') no-repeat 50%;
     background-size: cover;
     left: -50%;
 }
 .slide3 {
-    background: url('../images/3333.jpg') no-repeat 50%;
+    background: url('../images/333333.jpg') no-repeat 50%;
     background-size: cover;
     left: -100%;
 }
