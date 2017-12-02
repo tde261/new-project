@@ -88,10 +88,6 @@ $(".to_top").click(function() {
     $("html, body").animate({scrollTop:0 + "px"});
 });
 
-$(document).on("scroll", function() {
-    $(".slideshow").css({"transform" : "translate3d(0," + $(document).scrollTop()/2 + "px,0)"});
-   
-});
 
 //Анимация
 
