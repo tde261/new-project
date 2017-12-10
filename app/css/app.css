@@ -1201,6 +1201,7 @@ footer
 .slide3_wrap
 {
     margin: 0;
+    display: block;
 }
 .slide3_title {
     font-family: lato, sans-serif;
